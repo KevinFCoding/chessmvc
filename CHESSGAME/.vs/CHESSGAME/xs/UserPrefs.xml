@@ -1,14 +1,15 @@
 ﻿<Properties>
+  <MonoDevelop.Ide.ItemProperties.CHESSGAME FirstBuild="True" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Partie.cs">
     <Files>
-      <File FileName="Partie.cs" Line="18" Column="9" />
-      <File FileName="Piece.cs" Line="13" Column="9" />
-      <File FileName="Pieces/Pion.cs" Line="18" Column="11" />
-      <File FileName="Pieces/Reine.cs" Line="3" Column="18" />
-      <File FileName="Pieces/Roi.cs" Line="3" Column="18" />
-      <File FileName="Pieces/Fou.cs" Line="3" Column="18" />
-      <File FileName="Pieces/Cavalier.cs" Line="4" Column="26" />
-      <File FileName="Pieces/Tour.cs" Line="15" Column="10" />
+      <File FileName="Partie.cs" Line="1" Column="1" />
+      <File FileName="Piece.cs" Line="3" Column="23" />
+      <File FileName="Pieces/Pion.cs" Line="1" Column="1" />
+      <File FileName="Pieces/Reine.cs" Line="1" Column="1" />
+      <File FileName="Pieces/Roi.cs" Line="1" Column="1" />
+      <File FileName="Pieces/Fou.cs" Line="1" Column="1" />
+      <File FileName="Pieces/Cavalier.cs" Line="1" Column="1" />
+      <File FileName="Pieces/Tour.cs" Line="8" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
