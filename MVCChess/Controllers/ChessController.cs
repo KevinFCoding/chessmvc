@@ -12,6 +12,8 @@ namespace MVCChess.Controllers {
         // GET: /<controller>/
         public IActionResult Index() {
             return View();
+
+
             }
         }
     }
