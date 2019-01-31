@@ -2,32 +2,19 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace tableau
+namespace CHESSGAME
 {
-    public class Piece
+    public abstract class Piece
     
     {
 
-        public static char[,] pieces;
+        private string pieceType = "";
+        public bool IsBlanc { get; set; }
+        public string Nom { get; set; }
 
-        public Piece()
-        {
-            pieces = new char[Echiquier.Dimension, Echiquier.Dimension];
-            CreatioPiece();
-        }
-
-        private void CreatioPiece()
-        {
-            for (int Colo = 0; Colo < Echiquier.Dimension; Colo++)
-            {
-                for (int ligne = 0; ligne < Echiquier.Dimension; ligne++)
-                {
-                    if (Colo == 0 || Colo == 1 || Colo == 6 || Colo == 7)
-                        pieces[Colo, ligne] = 'O';
-                    else
-                        pieces[Colo, ligne] = ' ';
-                }
+        public abstract void isValidMouv(int xd, int yd, int xa, int ya);
+        public virtual void isTrajectoireLibre(int xd, int yd, int xa, int ya, string piece) {
+             
             }
         }
-    }
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 
-namespace tableau
+namespace CHESSGAME
+
 {
     class Program
     {

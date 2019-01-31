@@ -1,10 +1,22 @@
 ﻿<Properties StartupConfiguration="{7FF8C9A0-9C1C-4E26-A98A-D1A3A3607E3D}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../CHESSGAME/Partie.cs">
+    <Files>
+      <File FileName="../CHESSGAME/Partie.cs" Line="17" Column="9" />
+      <File FileName="../CHESSGAME/Piece.cs" Line="16" Column="28" />
+      <File FileName="../CHESSGAME/Pieces/Roi.cs" Line="25" Column="1" />
+      <File FileName="Controllers/ChessController.cs" Line="9" Column="1" />
+      <File FileName="../CHESSGAME/Pieces/Reine.cs" Line="20" Column="13" />
+      <File FileName="../CHESSGAME/Pieces/Pion.cs" Line="16" Column="30" />
+      <File FileName="../CHESSGAME/Pieces/Fou.cs" Line="18" Column="31" />
+      <File FileName="../CHESSGAME/Pieces/Cavalier.cs" Line="21" Column="45" />
+      <File FileName="../CHESSGAME/Pieces/Tour.cs" Line="14" Column="15" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.MVCChess FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.MVCChess PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
