@@ -14,15 +14,16 @@ namespace CHESSGAME {
 
         }
         // aff incrémentation
-        public void Chess2() {
 
-        Piece[,] Chess = new Piece[8, 8];
+        
+        public void Chess() {
+
+        Piece[,] Echiquier = new Piece[8, 8];
 
         for (int x = 0; x < 8; x++) {
                 for (int y = 0; y < 8; y++) {
-                    Console.WriteLine(Chess[8, 8]);
+                    Console.WriteLine(Echiquier[8, 8]);
                     Console.WriteLine( x + y );
-
                 }
             }
 

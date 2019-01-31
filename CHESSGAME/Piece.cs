@@ -1,18 +1,33 @@
 ﻿using System;
-namespace CHESSGAME {
-    public abstract class Piece {
+using System.Collections.Generic;
+using System.Text;
 
-        public bool couleur;
-        public string nom;
+namespace tableau
+{
+    public class Piece
+    
+    {
 
-        public abstract void IsValidMouv(int xd, int yd, int xa, int ya);
+        public static char[,] pieces;
 
-        public virtual void IsTrajectoireLibre(int xd, int yd, int xa, int ya, string piece) {}
+        public Piece()
+        {
+            pieces = new char[Echiquier.Dimension, Echiquier.Dimension];
+            CreatioPiece();
+        }
 
-
-
-
-
-
+        private void CreatioPiece()
+        {
+            for (int Colo = 0; Colo < Echiquier.Dimension; Colo++)
+            {
+                for (int ligne = 0; ligne < Echiquier.Dimension; ligne++)
+                {
+                    if (Colo == 0 || Colo == 1 || Colo == 6 || Colo == 7)
+                        pieces[Colo, ligne] = 'O';
+                    else
+                        pieces[Colo, ligne] = ' ';
+                }
+            }
+        }
     }
 }
